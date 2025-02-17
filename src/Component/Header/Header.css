@@ -1,0 +1,26 @@
+
+.header-main{
+    padding: 10px 160px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-panel{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+.nav-panel a{
+    color: var(--black);
+    font-family: "Inter";
+}
+.btn{
+    border: 1px solid var(--border);
+    border-radius: 5px;
+    padding: 10px 8px;
+}
+.btn a{
+    color: var(--black);
+    font-family: "Inter";
+}
