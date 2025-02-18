@@ -1,5 +1,5 @@
 import './App.css'
-/*import {BrowserRouter as Router,Routes,Route} from "react-router-dom";*/
+import {BrowserRouter as Router,Routes,Route} from "react-router-dom";
 import Header from './Component/Header/Header'
 import Hero from './Component/Hero/Hero'
 import About from './Component/About/About'
@@ -10,16 +10,17 @@ import Footer from './Component/Footer/Footer'
 function App() {
 
   return (
-    /*<Router>
+    <Router>
+      <Header/>
       <Routes>
-        <Route index element={<Header/>}/>
-        <Route path="/Hero" element={<Hero/>}/>
+        <Route path="/" element={<Hero/>}/>
         <Route path="/About" element={<About/>}/>
         <Route path="/Experience" element={<Experience/>}/>
         <Route path="/Project" element={<Project/>}/>
         <Route path="/Footer" element={<Footer/>}/>
       </Routes>
-    </Router>*/
+    </Router>
+    /*
     <>
       <Header/>
       <Hero/>
@@ -27,7 +28,7 @@ function App() {
       <Experience/>
       <Project/>
       <Footer/>
-    </>
+    </>*/
   )
 }
 

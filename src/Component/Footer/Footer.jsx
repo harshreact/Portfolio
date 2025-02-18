@@ -12,13 +12,13 @@ const Footer = () => {
                     <div className="contact-links">
                         <ul>
                             <li>
-                                <a href="#">
+                                <a href="https://github.com/dashboard">
                                     <FaGithub />
                                 </a>
                             </li>
                             <li>
-                                <a href="#">
-                                    <FaLinkedin />
+                                <a href='#'>
+                                    <FaLinkedin/>
                                 </a>
                             </li>
                         </ul>

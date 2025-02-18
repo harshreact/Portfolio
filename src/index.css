@@ -9,6 +9,8 @@
   --light-grey:#f2f2f2;
   --dark-grey:#c4c4c4;
   --border:rgba(0,0,0,0.5);
+  --blue:#0000FF;
+  --shadow:rgba(0,0,0,0.1);
 }
 body {
   font-size: normal;
@@ -47,6 +49,7 @@ p{
 a{
   text-decoration: none;
   font-size: 20px;
+  color: var(--black);
 }
 .container{
   max-width: 1920px;
@@ -70,6 +73,6 @@ a{
 .main{
   display: flex;
   flex-direction: column;
-  padding: 120px 225px;
+  padding: 80px 225px 120px 225px;
   gap: 50px;
 }

@@ -27,7 +27,7 @@ const Project = () => {
                             </ul>
                             <ul className="icons">    
                                 <li>
-                                    <a href="#">
+                                    <a href="https://github.com/Harsh2073/Valorant.git">
                                         <FaGithub />
                                     </a>
                                 </li>
@@ -52,7 +52,7 @@ const Project = () => {
                             </ul>
                             <ul className="icons">    
                                 <li>
-                                    <a href="#">
+                                    <a href="https://github.com/Harsh2073/Weather.git">
                                         <FaGithub />
                                     </a>
                                 </li>

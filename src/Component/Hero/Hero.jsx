@@ -1,6 +1,6 @@
 import '../Hero/Hero.css';
 import { MdKeyboardDoubleArrowDown } from "react-icons/md";
-
+import {Link} from 'react-router-dom';
 
 const Hero = () => {
   return (
@@ -12,13 +12,16 @@ const Hero = () => {
                         <h1>Hi, I am Harsh Patel</h1>
                     </div>
                     <div className="subtitle">
-                        <h3>Machine Learning|Web Developer</h3>
+                        <h3>Machine Learning | Web Developer</h3>
                     </div>
                 </div>
                 <div className="arrow">
-                    <a href="#">
-                    <MdKeyboardDoubleArrowDown />
-                    </a>
+                    <Link to='/About'>
+                        <a>
+                            <MdKeyboardDoubleArrowDown />
+                        </a>
+                    </Link>
+                    
                 </div>
             </div>
         </div>
