@@ -1,6 +1,6 @@
 import '../Header/Header.css'
 import {Link} from 'react-router-dom';
-const Header = () => {
+const Header = () => {            
   return (
     <>
     <div className='container'>
@@ -17,8 +17,11 @@ const Header = () => {
                 <Link to='/Footer'><a>Contact</a></Link>
             </div>
             <div className='btn'>
-                <a href='#'>Resume</a>
+                <a href='/My-resume.pdf'>Resume</a>
             </div>
+            {/*<div className='btn'>
+              <a href='/src/assets/Header/My-resume.pdf'>Resume</a>
+            </div>*/}
         </div>
     </div>
     </>
