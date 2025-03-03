@@ -1,6 +1,6 @@
 
 .project-main{
-    background-color: var(--dark-grey);
+    background-color: var(--dark-background);
 }
 .project-block{
     display: flex;
