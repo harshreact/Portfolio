@@ -21,7 +21,7 @@ const Experience = () => {
                             <h4>ReactJS</h4>
                             <p>AORC Technologies</p>
                         </div>
-                        <p>Janurary 2025 - June 2025</p>
+                        <p>Janurary 2025 - Present</p>
                     </div>
                 </div>
                 <div className="experience-block">
